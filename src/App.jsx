@@ -22,17 +22,17 @@ export default function (props) {
             <h1>Fundamentos React</h1>
             <div className="Cards">
                 <Card titulo="10 - Comunicação Indireta" color="#8BAD39">
-                    <IndiretaPai></IndiretaPai>
+                    <IndiretaPai />
                 </Card>
 
                 <Card titulo="09 - Comunicação Direta" color="#59323C">
-                    <DiretaPai></DiretaPai>
+                    <DiretaPai />
                 </Card>
 
                 <Card titulo="08 - Renderização Condicional" color="#982395">
-                    <ParOuImpar numero={20}/>
-                    <UsuarioInfo usuario={{nome: "Fernando"}}></UsuarioInfo>
-                    <UsuarioInfo usuario={{email: "joao@email.com"}}></UsuarioInfo>
+                    <ParOuImpar numero={20} />
+                    <UsuarioInfo usuario={{nome: "Fernando"}} />
+                    <UsuarioInfo usuario={{email: "joao@email.com"}} />
                 </Card>
 
                 <Card titulo="07 - Desafio Repetição" color="#3A9AD9">
