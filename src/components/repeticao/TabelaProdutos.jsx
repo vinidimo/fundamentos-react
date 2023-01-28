@@ -2,7 +2,7 @@ import React from "react";
 import produtos from "../../data/produtos";
 import "./TabelaProdutos.css"
 
-export default (props) => {
+export default function (props) {
     function getLinhas() {
         return produtos.map((produto, i) => {
             return (
