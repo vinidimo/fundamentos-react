@@ -1,0 +1,14 @@
+.Contador input {
+    font-size: 1.4rem;
+    width: 60px;
+}
+
+.Contador button {
+    height: 30px;
+    width: 30px;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: #0055ff;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
